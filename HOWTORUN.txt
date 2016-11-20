@@ -1,0 +1,8 @@
+To run code, type:  ./main -p problem1.txt
+
+You may want to replace "problem1.tx" with "problem2.txt" or "problem3.txt"
+
+It is not necessary to type:   -w MyWorld
+
+
+PS: If the main file is corrupt, delete it and type: make
