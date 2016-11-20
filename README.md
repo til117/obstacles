@@ -4,7 +4,7 @@ The theme of this project is probabilistic road maps, obstacle definition and co
 
 The program constructs obstacles in an empty grid, in order for a path planning algorithm to choose a collision-free path from a starting point to the ending point of that grid.
 
-It is a small project for a programming course at KTH´, and is implemented in MATLAB.
+It is a small project for a programming course at KTH, and is implemented in C++.
 
 # Description
 
