@@ -14,22 +14,22 @@ For this project, I create two files.
 
 # Obstacle.cc
 
-This file defines and creates the obstacles. Firstly, a class named “Obstacle” was created, defining the center coordinates of the obstacle to be created. Secondly, two more classes were created, named “Circle” and “Rectangle”, which inherited the center coordinates from the class “Obstacle”. They provided an interface for the shapes of circles and rectangles. The main goal of this file is to define circles and rectangles and providing an interface for the path planning algorithm to check for collisions and writing a MATLAB file, plotting the result of the path planning algorithm used on this obstacles. 
+This file defines and creates the obstacles. Firstly, a class named “Obstacle” is created, defining the center coordinates of the obstacle to be created. Secondly, two more classes are created, named “Circle” and “Rectangle”, which inherit the center coordinates from the class “Obstacle”. They provide an interface for the shapes of circles and rectangles. The main goal of this file is to define circles and rectangles and providing an interface for the path planning algorithm to check for collisions and writing a MATLAB file, plotting the result of the path planning algorithm used on this obstacles. 
 
-Furthermore, the classes “Circle” and “Rectangle” checks if the coordinates provided by the path 
+Furthermore, the classes “Circle” and “Rectangle” check if the coordinates provided by the path 
 planning algorithm collides with any obstacle by using the function “collidesWith”.  
 In order to perform a collision check, a set of new coordinates are used, unique for every 
 geometric figure. 
 
-Lastly, the classes “Circle” and “Rectangle” plots the desired obstacle in MATLAB using the 
+Lastly, the classes “Circle” and “Rectangle” plot the desired obstacle in MATLAB using the 
 function “writeMatlabDisplayCode”.  
 
 # MyWorld.m
 
-The second file in this project was calles “MyWorld.cc”. 
-In this file, a class named “MyWorld” was created, providing important features for the path 
-planning algorithm in order to read from the specification text files. This was done using the 
-function “readObstacles”. Another important feature was the interface for collision checking and 
+The second file in this project is called “MyWorld.cc”. 
+In this file, a class named “MyWorld” is created, providing important features for the path 
+planning algorithm in order to read from the specification text files. This is done using the 
+function “readObstacles”. Another important feature is the interface for collision checking and 
 MATLAB writing. 
 
 # Instructions
@@ -38,6 +38,10 @@ To run code, type:  ./main -p problem1.txt
 
 You may want to replace "problem1.tx" with "problem2.txt" or "problem3.txt"
 
-It is not necessary to type:   -w MyWorld
+It is not necessary to type:  
 
-PS: If the main file is corrupt, delete it and type: make
+-w MyWorld
+
+PS: If the main file is corrupt, delete it and type: 
+
+make
